@@ -1,0 +1,37 @@
+apply plugin: 'com.android.application'
+
+android {
+    namespace = "com.naman14.tandroidlame"
+    compileSdk 35
+
+    defaultConfig {
+        applicationId "com.naman14.tandroidlame"
+        minSdkVersion 21
+        targetSdkVersion 35
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles.add(file("proguard-rules.pro"))
+        }
+    }
+
+    externalNativeBuild {
+        ndkBuild {
+            path '../androidlame/src/main/jni/Android.mk'
+        }
+    }
+}
+
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.7.0'
+    implementation "androidx.recyclerview:recyclerview:1.4.0"
+    implementation project(':androidlame')
+    implementation(platform("org.jetbrains.kotlin:kotlin-bom:1.8.22"))
+
+}

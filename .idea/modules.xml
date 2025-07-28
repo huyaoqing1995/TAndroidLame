@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TAndroidLame.iml" filepath="$PROJECT_DIR$/.idea/modules/TAndroidLame.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/androidlame/TAndroidLame.androidlame.iml" filepath="$PROJECT_DIR$/.idea/modules/androidlame/TAndroidLame.androidlame.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/androidlame/TAndroidLame.androidlame.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/androidlame/TAndroidLame.androidlame.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/androidlame/TAndroidLame.androidlame.main.iml" filepath="$PROJECT_DIR$/.idea/modules/androidlame/TAndroidLame.androidlame.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/androidlame/TAndroidLame.androidlame.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/androidlame/TAndroidLame.androidlame.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/TAndroidLame.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/TAndroidLame.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/TAndroidLame.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/TAndroidLame.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/TAndroidLame.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/TAndroidLame.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/TAndroidLame.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/TAndroidLame.app.unitTest.iml" />
+    </modules>
+  </component>
+</project>
