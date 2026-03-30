@@ -26,6 +26,12 @@ android {
             path 'src/main/jni/Android.mk'
         }
     }
+
+    publishing {
+        singleVariant("release") {
+            // 需要源码 jar 时可开：withSourcesJar()
+        }
+    }
 }
 
 dependencies {
